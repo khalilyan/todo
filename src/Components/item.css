@@ -1,0 +1,122 @@
+#container{
+    width: 800px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.071);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.153);
+    font-size: 25px;
+    transition: 0.6s;
+    color: rgba(0, 0, 0, 0.623);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.item:hover{
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.452);
+    
+}
+
+#checkbox{
+    height: 25px;
+    width: 25px;
+}
+#Xbtn{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 70px;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    
+}
+#Xbtn:hover{
+    border: 1px solid rgb(255, 55, 0);
+    background-color: rgb(255, 0, 0);
+    color: white 
+}
+
+@media(max-width: 946px){
+    #container{
+     width: 700px;
+    }
+ }
+@media(max-width: 799px){
+    #container{
+     width: 600px;
+    
+    }
+    .item{
+        gap: 50px;
+    }
+}
+@media(max-width: 697px){
+    #container{
+     width: 500px;
+    }
+    .item{
+        gap: 30px;
+        font-size: 20px;
+        padding: 10px;
+    }
+ }
+ @media(max-width: 624px){
+    #container{
+        width: 500px;
+    }
+    .item{
+        gap: 40px
+    }
+ }
+ @media(max-width: 596px){
+    #container{
+     width: 450px;
+    }
+    .item{
+        font-size: 20px;
+        gap: 20px;
+    }
+ }
+ 
+ @media(max-width: 521px){
+    #container{
+     width: 400px;
+    }
+    .item{
+        gap: 15px;
+        padding: 5px;
+    }
+ }
+ @media(max-width: 487px){
+    #container{
+     width: 350px;
+    }
+    .item{
+        gap: 5px;
+        font-size: 17px;
+    }
+ }
+ @media(max-width: 437px){
+    #container{
+     width: 300px;
+    }
+    .item{
+        font-size: 15px;
+        gap: 5px;
+        padding: 5px;
+    }
+ }
+ @media(max-width: 355px){
+    #container{
+     width: 250px;
+    }
+    .item{
+        font-size: 12px;
+        gap: 5px;
+    }
+ }

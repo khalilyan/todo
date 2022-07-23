@@ -1,0 +1,43 @@
+#footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    zoom: 160%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgba(0, 0, 0, 0.674)
+}
+#clearbtn{
+    margin-left: 20px;
+    height: 30px;
+    width: 100;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.073);
+    color: rgba(0, 0, 0, 0.637);
+    transition: 0.5s;
+}
+#clearbtn:hover{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(157, 255, 0);
+    background-color: rgba(94, 255, 0, 0.591); 
+}
+
+
+@media(max-width: 799px){
+    #footer{
+        zoom: 130%
+    }
+   
+}
+
+@media(max-width: 595px){
+    #footer{
+        zoom: 120%
+    }
+   
+}
+@media(max-width: 355px){
+    #footer{
+        zoom: 100%
+    }
+   
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    bottom: 0;
+}
+.App{
+   background-color: white;
+   
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position:relative;
+    top: 100px;
+    border: 1px solid rgba(6, 150, 253, 0.324);
+    box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.479);
+
+    
+}
+.App #logo {
+    width: 200px;
+    height: 80px;
+    opacity: 0.7;
+    margin-top: 30px;
+}
+.App #logo:hover {
+   width: 200px;
+   height: 80px;
+   opacity: 1;
+   cursor: pointer;
+   margin-top: 30px;
+}
+.App #List{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+@media(max-width: 1042px){
+   .App{
+    width: 900px;
+   }
+}
+@media(max-width: 946px){
+    .App{
+     width: 800px;
+    }
+ }
+
+ @media(max-width: 852px){
+    .App{
+     width: 750px;
+    }
+ }
+ @media(max-width: 799px){
+    .App{
+     width: 650px;
+    }
+ }
+ @media(max-width: 697px){
+    .App{
+     width: 570px;
+    }
+ }
+ @media(max-width: 624px){
+    .App{
+     width: 550px;
+    }
+ }
+ @media(max-width: 595px){
+    .App{
+     width: 480px;
+    }
+ }
+ @media(max-width: 521px){
+    .App{
+     width: 440px;
+    }
+ }
+ @media(max-width: 487px){
+    .App{
+     width: 400px;
+    }
+ }
+ @media(max-width: 437px){
+    .App{
+     width: 350px;
+    }
+ }
+ @media(max-width: 392px){
+    .App{
+     width: 320px;
+    }
+ }
+ @media(max-width: 355px){
+    .App{
+     width: 290px;
+    }
+ }
+ @media(max-width: 330px){
+    .App{
+     width: 270px;
+    }
+ }
